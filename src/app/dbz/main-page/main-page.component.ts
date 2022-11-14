@@ -1,9 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { TargetLocator } from 'selenium-webdriver';
-interface Personaje{
-  nombre:string;
-  poder:number;
-}
+import { Personaje } from '../interfaces/dbz.interface';
+
 @Component({
   selector: 'app-main-page',
   templateUrl: './main-page.component.html',
