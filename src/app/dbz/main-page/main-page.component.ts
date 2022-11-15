@@ -20,6 +20,8 @@ nuevo:Personaje={
   nombre:'Maestro Roshi',
   poder:100
 }
-
+agregarNuevoPersonaje(argumento:Personaje){
+ this.personajes.push(argumento);
+}
   
 }
