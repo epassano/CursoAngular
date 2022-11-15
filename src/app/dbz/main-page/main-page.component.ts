@@ -16,10 +16,10 @@ personajes:Personaje[]=[
   poder:7500
   }
 ];
-nuevo:Personaje[]=[{nombre:'Maestro Roshi' ,poder:1000}];
+nuevo:Personaje={
+  nombre:'Maestro Roshi',
+  poder:100
+}
 
-  cambiarNombre( event:any){
-    console.log(event.target.value);
-  }
-
+  
 }
